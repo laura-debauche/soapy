@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="images/soapy.jpeg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Soapy Contact</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+			  <li class="dropdown2">
+				<a href="#" class="dropdown-toggle2">...</a>
+				<ul class="dropdown-menu2">
+				  <li><a class="droptext2" href="index.html">Accueil</a></li>
+				  <li><a class="droptext2" href="./index2.html#">Nous contacter</a></li>
+				  <li><a class="droptext2" href="./produits.html#">Nos produits</a></li>
+				  
+				</ul>
+			  </li>
+			
+			</ul>
+		  </nav>
+	</header>
+	<h3 id="titre">Un problème, des idées ou bien vous souhaitez nous rejoindre. Contactez nous dès maintenant.</h3>
+	<ul class="textall1">
+		<li>Par mail : Soapy@gmail.com</li>
+		<li>Par téléphone : 06 75 59 89 76</li>
+		<li>Par courrier : 3 Av. Bernard Hirsch, 95000 Cergy </li>
+	</ul>
+	<div>
+		<a id="mail" href="mailto:Soapy@gmail.com?subject=Demande d'information&amp;body=Bonjour, je suis intéressé(e) par vos savons. Pourriez-vous m'en dire plus ?">Nous envoyer un mail</a>
+
+	</div>
+	<div>
+		<p id="message">Cliquez ici pour nous contacter</p>
+
+	<script>
+		// Récupérer l'élément de texte par son ID
+		var monTexte = document.getElementById("message");
+
+		// Ajouter un événement "click" à l'élément de texte
+		monTexte.addEventListener("click", function() {
+			// Envoyer le message
+			alert("Vous pouvez nous appeler ou nous envoyer un message au: 06 75 59 89 76");
+		});
+	</script>
+	</div>
+
+	<div class="grid">
+		<img class="banner2" id="cosi" src="images/cosi.jpeg">
+		<img class="banner2" id="sdb" src="images/sdb.jpeg">
+		<img class="banner2" id="vague" src="images/vague.jpeg">
+		
+	</div>
+
+</body>
+<footer class="container1">
+	<div class="content">
+	<h6>Copyright © 2023 Soapy. Tout droit réservés</h6>
+	<a id="condu" href="#">Conditions d'utilisations</a>
+</div>
+</footer>
+</html>
